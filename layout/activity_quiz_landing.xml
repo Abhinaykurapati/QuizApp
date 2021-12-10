@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".Quiz_Landing"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="@drawable/gradient">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="20dp"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/quiz1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:text="QUiZIT"
+            android:textColor="@color/black"
+            android:textSize="42dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Tease your brain"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttons_round"
+        android:text="Enter Quiz"
+        android:id="@+id/Enter"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white">
+    </Button>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttons_round"
+        android:id="@+id/bookmarks"
+        android:text="Bookmarks"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white">
+    </Button>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttons_round"
+        android:text="learn about app"
+        android:id="@+id/about"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white">
+    </Button>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttons_round"
+        android:text="Visit your profile"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:id="@+id/profile"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white">
+    </Button>
+
+
+</LinearLayout>
